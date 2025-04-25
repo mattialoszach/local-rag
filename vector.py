@@ -9,7 +9,7 @@ collection_name = "patient_profiles"
 
 embeddings = OllamaEmbeddings(model="mxbai-embed-large") # Model for embeddings
 
-df = pd.read_csv("diabetes_dataset.csv")[:100] # Optional: Decide size of Vector DB
+df = pd.read_csv("diabetes_dataset.csv")[:1000] # Optional: Change size of Vector DB
 
 add_documents = not os.path.exists(db_location) # Check for existing Vector DB
 
