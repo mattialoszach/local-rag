@@ -3,3 +3,5 @@ venv/
 marshalpatel3558/
 
 __pycache__/
+
+.DS_Store
