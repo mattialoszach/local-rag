@@ -12,6 +12,8 @@ It allows natural language queries over structured CSV medical data, enabling fa
 5. A custom prompt is created using those profiles and sent to a **local LLM (e.g. `llama3`) via Ollama**.
 6. The model generates an informed medical response.
 
+<img src="img/terminal.png" alt="appletree Screenshot" width="600">
+
 ## 🛠 Installation
 
 ### 1. Clone the repository
